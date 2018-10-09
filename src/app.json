@@ -1,10 +1,10 @@
 {
   "pages": [
     "pages/menu/main",
+    "pages/order/main",
     "pages/camera/main",
     "pages/coupon-detail/main",
     "pages/intro/main",
-    "pages/order/main",
     "pages/pay-result/main",
     "pages/register/main",
     "pages/user/main"

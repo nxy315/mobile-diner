@@ -15,6 +15,7 @@ export default {
 page{
   font-size: 26rpx;
   color: #262626;
+  background-color: #f9f9f9;
 }
 *{
   box-sizing: border-box;
@@ -25,10 +26,10 @@ button{
   outline: none;
   padding: 0;
   margin: 0;
-  display: inline-block; 
-  line-height: 1; 
-  font-size: 26rpx; 
-  border-radius: 0;  
+  display: inline-block;
+  line-height: 1;
+  font-size: 26rpx;
+  border-radius: 0;
 }
 
 .gray{
@@ -151,5 +152,24 @@ button{
   margin-left: 20rpx;
   width: 20rpx;
   height: 34rpx;
+}
+
+/* 增加减少数量 */
+.opera-btn{
+  padding-right: 34rpx;
+  align-items: center;
+}
+.opera-btn image{
+  width: 36rpx;
+  height: 36rpx;
+}
+.opera-btn image:active{
+  opacity: 0.8;
+}
+.opera-btn span{
+  padding: 0 24rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
 }
 </style>

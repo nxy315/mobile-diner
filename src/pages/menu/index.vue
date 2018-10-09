@@ -36,7 +36,7 @@
 			<div class='btn choose-btn flex-r-c'>
 				<div class='icon-wrap'>
 					<image class='cart-icon' src='/static/images/menu_cart_icon.png'></image>
-					<span class='cart-count'>1</span>  
+					<span class='cart-count'>1</span>
 				</div>
 				<span>￥28.8</span>
 			</div>
@@ -89,7 +89,7 @@ export default {
 	},
   methods: {
 		/**
-		 * 生成订单 
+		 * 生成订单
 		 */
 		makeOrder() {
 			wx.navigateTo({
@@ -177,21 +177,5 @@ export default {
   font-size: 32rpx;
   font-weight: bold;
 }
-.commodity-list .commodity-wrap .content .foot .opera-btn{
-  padding-right: 34rpx;
-  align-items: center;
-}
-.commodity-list .commodity-wrap .content .foot .opera-btn image{
-  width: 36rpx;
-  height: 36rpx;
-}
-.commodity-list .commodity-wrap .content .foot .opera-btn image:active{
-  opacity: 0.8;
-}
-.commodity-list .commodity-wrap .content .foot .opera-btn span{
-  padding: 0 24rpx;
-  font-size: 32rpx;
-  font-weight: bold;
-  color: #333;
-}
+
 </style>
