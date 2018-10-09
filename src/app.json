@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/menu/main",
+    "pages/camera/main",
+    "pages/coupon-detail/main",
+    "pages/intro/main",
+    "pages/order/main",
+    "pages/pay-result/main",
+    "pages/register/main",
+    "pages/user/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "熊猫餐车",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#333333",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "text": "订餐",
+        "pagePath": "pages/menu/main",
+        "iconPath": "/static/images/menu.png",
+        "selectedIconPath": "/static/images/menu_active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/user/main",
+        "iconPath": "/static/images/user.png",
+        "selectedIconPath": "/static/images/user_active.png"
+      }
+    ]
+  }
+}
