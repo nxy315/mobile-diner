@@ -27,19 +27,18 @@
 
 <script>
 
-export default {
-	data () {
-		return {
-			text: 1
-		}
-	},
-  methods: {
+  export default {
+    data () {
+      return {
+        text: 1
+      }
+    },
+    methods: {}
   }
-}
 </script>
 
 <style lang="less" scoped>
-  .choose-time-wrap{
+  .choose-time-wrap {
     width: 710rpx;
     height: 266rpx;
     background-color: #fff;

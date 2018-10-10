@@ -4,15 +4,14 @@
 
 <script>
 
-export default {
-	data () {
-		return {
-			text: 1
-		}
-	},
-  methods: {
+  export default {
+    data () {
+      return {
+        text: 1
+      }
+    },
+    methods: {}
   }
-}
 </script>
 
 <style scoped>
